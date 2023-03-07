@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31808.319
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Atria.Localization", "Atria.Localization\Atria.Localization.csproj", "{CFAA7624-C69E-4668-8898-9E1817B53BE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFAA7624-C69E-4668-8898-9E1817B53BE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAA7624-C69E-4668-8898-9E1817B53BE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAA7624-C69E-4668-8898-9E1817B53BE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAA7624-C69E-4668-8898-9E1817B53BE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FF226E2-E369-44F3-A068-BEACEDAAED99}
+	EndGlobalSection
+EndGlobal

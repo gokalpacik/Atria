@@ -1,0 +1,9 @@
+﻿[
+  {
+    "Key": "UserCanApproveNotMatched",
+    "Values": {
+      "tr-TR": "Onaylayabilir tiki sadece mağaza müdürü için kaldırılabilir.",
+      "en-US": "Involved in approvement checkbox can only be removed for Store Manager"
+    }
+  }  
+]
