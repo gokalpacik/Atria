@@ -1,15 +1,11 @@
-name: CI
+env:
+  ProjectName: Atria.Localization
+  TagName: Localization
 
 on:
   push:
-    branches:
-    - master
-  pull_request:
-    branches:
-    - master
-
-env:
-  ProjectName: Atria.Localization
+    tags:
+    - "Localization.v*.*.*"
 
 jobs:
   build:
@@ -19,7 +15,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
    
-    - name: Get Version
+    - name: Get Version from TagName
       run: echo "VERSION=${GITHUB_REF#refs/tags/${{env.TagName}}.v}" >> $GITHUB_ENV
           
     - name: Print Version
