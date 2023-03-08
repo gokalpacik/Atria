@@ -23,11 +23,11 @@ jobs:
       run: echo ${VERSION}
      
     - name: Build
-      run: dotnet build --configuration Release /p:Version=${VERSION}
+      run: dotnet build --configuration Release /p:Version=1.0.0
     - name: Test
-      run: dotnet test --configuration Release /p:Version=${VERSION} --no-build
+      run: dotnet test --configuration Release /p:Version=1.0.0 --no-build
     - name: Pack
-      run: dotnet pack ${{env.ProjectName}}.csproj --configuration Release /p:Version=${VERSION} --no-build --output .
+      run: dotnet pack ${{env.ProjectName}}.csproj --configuration Release /p:Version=1.0.0 --no-build --output .
       
     #- name: Push
     #  run: dotnet nuget push "*.nupkg" --source https://api.nuget.org/v3/index.json --api-key ${NUGET_API_KEY}
