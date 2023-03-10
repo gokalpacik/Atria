@@ -3,7 +3,9 @@ This NuGet package is designed to simplify the process of localizing your applic
 Installation
 You can install this package using the NuGet package manager in Visual Studio or by running the following command in the Package Manager Console:
 
-Install-Package *****
+```powershell
+NuGet\Install-Package Gokalp.Atria.Localization -Version 2.0.1
+```
 
 Contributing
 Contributions to this package are welcome! If you find a bug or have a suggestion for a new feature, please open an issue on the project's GitHub page. If you would like to contribute code, please fork the repository and submit a pull request.
